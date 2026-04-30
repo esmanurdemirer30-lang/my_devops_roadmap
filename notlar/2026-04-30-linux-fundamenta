@@ -1,0 +1,23 @@
+#Day1: Linux Basics & Git Troubleshooting
+
+### Date: April 30, 2026
+### Focus: Setting up the environment and fixxing Git structure.
+
+### Technical Challenges & Solutions
+1. **Git Submodule Issue (The "White Arrow" Problem):**
+   - *Problem:* Folders had a white arrow on Github and were not clickable.
+   - *Solution.* Removed nested `.git` folders and cleared teh Git cache using `git rm -r --cached .` .
+
+2. **Terminal Syntax Error:**
+   - *Problem:* Received `command ', echo' not found`.
+   - *Reason:* A typo (comma before the command ) in the terminal.
+   - *Solutions:* Fixed the script syntax and verified with `ls -1`.
+
+### Commands Learned Today
+- `mv`: Renaming  files to English for global standarts.
+-`find` . -name  ".git": Locating gidden git directories.
+-`nano`: Editing files directly from the terminal.
+
+### Key Outcome
+Successfully pushed my first English-transalted script: `system_report.sh`.
+ 
